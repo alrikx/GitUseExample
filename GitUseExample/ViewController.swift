@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: Outlets
+    
+    @IBOutlet weak var theOnlyLabel: UILabel!
     
     //MARK: Generals
     
@@ -21,6 +24,7 @@ class ViewController: UIViewController {
     //MARK: Actions
     
     @IBAction func buttonClicked(_ sender: UIButton) {
+        theOnlyLabel.text = "I'm done!"
         print("This is a Git tutorial")
     }
 

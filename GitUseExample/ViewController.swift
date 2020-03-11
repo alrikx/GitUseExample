@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    //MARK: Generals
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    //MARK: Actions
+    
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        print("This is a Git tutorial")
+    }
 
 }
 

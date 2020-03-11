@@ -25,12 +25,21 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CZD-ZY-NDC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1G-xb-K53">
+                                <rect key="frame" x="0.0" y="110" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C1G-xb-K53" secondAttribute="trailing" id="6Do-Q5-7ZP"/>
+                            <constraint firstItem="C1G-xb-K53" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ls2-DT-zjr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k7x-3x-HWd" secondAttribute="trailing" id="NWs-mx-psM"/>
                             <constraint firstItem="k7x-3x-HWd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wr6-aG-4JA"/>
                             <constraint firstItem="k7x-3x-HWd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="fRE-11-5Lh"/>
+                            <constraint firstItem="C1G-xb-K53" firstAttribute="top" secondItem="k7x-3x-HWd" secondAttribute="bottom" constant="40" id="rOs-uk-Lhu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

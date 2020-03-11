@@ -14,6 +14,7 @@
 		81BF52F024199158001D8AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BF52EF24199158001D8AF9 /* Assets.xcassets */; };
 		81BF52F324199158001D8AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BF52F124199158001D8AF9 /* LaunchScreen.storyboard */; };
 		81BF52FE24199159001D8AF9 /* GitUseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF52FD24199159001D8AF9 /* GitUseExampleTests.swift */; };
+		81BF530924199651001D8AF9 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF530824199651001D8AF9 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		81BF52F924199158001D8AF9 /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BF52FD24199159001D8AF9 /* GitUseExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleTests.swift; sourceTree = "<group>"; };
 		81BF52FF24199159001D8AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BF530824199651001D8AF9 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				81BF52F124199158001D8AF9 /* LaunchScreen.storyboard */,
 				81BF52F424199158001D8AF9 /* Info.plist */,
 				81BF52EC24199154001D8AF9 /* GitUseExample.xcdatamodeld */,
+				81BF530824199651001D8AF9 /* MapForItinerary.swift */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BF530924199651001D8AF9 /* MapForItinerary.swift in Sources */,
 				81BF52E824199154001D8AF9 /* ViewController.swift in Sources */,
 				81BF52EE24199154001D8AF9 /* GitUseExample.xcdatamodeld in Sources */,
 				81BF52E624199154001D8AF9 /* AppDelegate.swift in Sources */,
